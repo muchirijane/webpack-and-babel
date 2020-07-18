@@ -7,8 +7,3 @@ destinations('Diani beach');
 destinations('Dubai');
 destinations('London');
 
-class User {
-    construtor(){
-        scores = 0;
-    }
-}

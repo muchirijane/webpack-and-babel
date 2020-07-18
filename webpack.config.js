@@ -10,3 +10,5 @@ module.exports = {
     }
 
 }
+
+//run npm install webpack webpack-cli
