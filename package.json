@@ -1,0 +1,17 @@
+{
+  "name": "chapter-19-webpack",
+  "version": "1.0.0",
+  "description": "install babel",
+  "main": "app.js",
+  "scripts": {
+    "start": "node_modules/.bin/babel src/index.js",
+    "build:babel": "node_modules/.bin/babel src/index.js -w  -o dist/assets/main.js"
+  },
+  "author": "Jane Muthoni",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4"
+  }
+}
