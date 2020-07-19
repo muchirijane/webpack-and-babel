@@ -1,9 +1,8 @@
-const destinations = (place) =>{
-    console.log(`I wanto to visit ${place}.`)
-}
+console.log('Index file');
 
-destinations('Rio');
-destinations('Diani beach');
-destinations('Dubai');
-destinations('London');
+import {bodyStyle, title, contact} from  './dom';
+
+bodyStyle();
+title('Hello World from the index file 🔥');
+console.log(contact);
 
