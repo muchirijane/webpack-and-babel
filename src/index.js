@@ -1,8 +1,9 @@
 console.log('Index file');
 
+
 import {bodyStyle, title, contact} from  './dom';
+import users, {getOver18} from './data';
 
-bodyStyle();
-title('Hello World from the index file 🔥');
-console.log(contact);
+const over18 = getOver18(users);
 
+console.log(users, over18);

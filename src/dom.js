@@ -14,4 +14,8 @@ console.log('Dom file');
 
 const contact = 'Tracy@jsninja.dev';
 
+bodyStyle();
+title('Hello World from the index file 🔥');
+console.log(contact);
+
 export { bodyStyle, title, contact };
