@@ -7,3 +7,4 @@ import users, {getOver18} from './data';
 const over18 = getOver18(users);
 
 console.log(users, over18);
+console.log('test 2');

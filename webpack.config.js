@@ -7,8 +7,13 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist/assets'),
         filename: 'main.js'
+    },
+    devServer : {
+        contentBase: path.resolve(__dirname, 'dist'),
+        publicPath: '/assets/'
     }
 
 }
 
 //run npm install webpack webpack-cli
+//run npm install webpack-dev-server --save-dev
